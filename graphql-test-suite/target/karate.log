@@ -2762,3 +2762,1967 @@ java.net.UnknownHostException: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1
   }
 }
 
+03:28:27.291 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:28:30.873 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n    friends {\n      email\n      name\n      userId\n    }\n  }"}
+
+03:28:32.039 [main] DEBUG com.intuit.karate - response time in milliseconds: 1154.30
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 88
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:28:32 GMT
+1 < Via: 1.1 e7b895fd3bb39cae82eb3570b1e92637.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: YLL9NwngalONImxlHPHmaLAv1ydJCfnzTAh-baqR5Fc3anjCKg21Sg==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 9497265f-612f-4ef5-afd8-8cb0d9874ccf
+{"data":{"friends":[{"email":"sheharyar28@hotmail.com","name":"zoro","userId":"1122"}]}}
+
+03:28:32.050 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "friends": [
+      {
+        "name": "zoro",
+        "userId": "1122",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}
+
+03:28:32.092 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:28:32.099 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n        friendsoffriends {\nemail\nname\nuserId\n        }\n      }"}
+
+03:28:32.593 [main] DEBUG com.intuit.karate - response time in milliseconds: 493.54
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 131
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:28:33 GMT
+1 < Via: 1.1 5e8999171cb0e7552ddfa2db2008e6b8.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: EtbY4yUH6wakyNkdKl181La7ciUoDMoXgV8X24JgnXmF32wsM6S7MA==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 50289691-e83e-48df-9f29-ad24b8ab9667
+{"data":{"friendsoffriends":[{"email":"sheharyar28@hotmail.com","name":"sherry","userId":"0ce404a8-7e04-483f-8aa2-3781e699d360"}]}}
+
+03:28:32.596 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "friendsoffriends": [
+      {
+        "name": "sherry",
+        "userId": "0ce404a8-7e04-483f-8aa2-3781e699d360",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}
+
+03:28:32.616 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:28:32.624 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 153
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  latestReviews(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n    createdAt\n    restaurantId\n    reviewId\n    text\n  }\n}"}
+
+03:28:33.047 [main] DEBUG com.intuit.karate - response time in milliseconds: 421.24
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 195
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:28:33 GMT
+1 < Via: 1.1 d20bd78252092a83033b53936adadb65.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: a90PQ1BKXTQOMdAi54-8SBhBxYReNXJfxi690OtBdFKd-MAD6rdlfw==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 1be0110f-8cc6-49fd-b636-436c89773281
+{"data":{"latestReviews":[{"createdAt":"1615364843024","restaurantId":"933db694-db29-4d2c-aafb-4a46577134e2","reviewId":"b8d52f67-6523-4b4a-9b1a-acd4017381af","text":"best burger in the town"}]}}
+
+03:28:33.049 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "latestReviews": [
+      {
+        "createdAt": "1615364843024",
+        "text": "best burger in the town",
+        "restaurantId": "933db694-db29-4d2c-aafb-4a46577134e2",
+        "reviewId": "b8d52f67-6523-4b4a-9b1a-acd4017381af"
+      }
+    ]
+  }
+}
+
+03:28:33.068 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:28:33.073 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 52
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  relation(targetUserId: \"1122\")\n}"}
+
+03:28:33.569 [main] DEBUG com.intuit.karate - response time in milliseconds: 495.59
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 30
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:28:34 GMT
+1 < Via: 1.1 461079ea73843c2127940af381fcd541.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: 7JDBjNnNlx9IEoyh7U6mISbqZoz5R4dvahMivMxiGVLfOS9cTAETvA==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: ecf5053f-98a5-4a17-ac80-ff3adb8c53a6
+{"data":{"relation":"friend"}}
+
+03:28:33.570 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "relation": "friend"
+  }
+}
+
+03:28:33.601 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:28:33.607 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 180
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n      restaurantRating(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n        commulative\n        dislikes\n        likes\n        total\n      }\n    }"}
+
+03:28:34.078 [main] DEBUG com.intuit.karate - response time in milliseconds: 468.71
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:28:34 GMT
+1 < Via: 1.1 6a1dbb759ade5ca1883ccb2e93b35123.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: OvZt5dZSiuYJfj_B4bO6fjq3tTRW4WyA8tudidMInOcncgMielWRYQ==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: e65afe6e-de33-4e37-814d-b0e3025f93f6
+{"data":{"restaurantRating":{"commulative":4,"dislikes":8,"likes":12,"total":20}}}
+
+03:28:34.080 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "restaurantRating": {
+      "total": 20,
+      "dislikes": 8,
+      "commulative": 4,
+      "likes": 12
+    }
+  }
+}
+
+03:28:34.101 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:28:34.106 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 136
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  restaurantRecommendationsByFriends(friendId: \"1122\") {\n    address\n    distance\n    name\n    restaurantId\n  }\n}"}
+
+03:28:34.494 [main] DEBUG com.intuit.karate - response time in milliseconds: 386.31
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 50
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:28:35 GMT
+1 < Via: 1.1 d2bad5fc8763a3ceeccf636d1aad26d7.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: ZFJlqawYQ2x2OM94mj0KgqeaGwbw_zEaAIYyVE1JXEy501LV6M-siQ==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 2b678fe0-8e99-4bd3-a2f4-398ff030004e
+{"data":{"restaurantRecommendationsByFriends":[]}}
+
+03:28:34.496 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "restaurantRecommendationsByFriends": [
+    ]
+  }
+}
+
+03:28:34.502 [main] ERROR com.intuit.karate - assertion failed: path: $.data.restaurantRecommendationsByFriends.length, actual: null, expected: 0, reason: actual json-path does not exist
+03:29:38.354 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:29:42.708 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n    friends {\n      email\n      name\n      userId\n    }\n  }"}
+
+03:29:43.935 [main] DEBUG com.intuit.karate - response time in milliseconds: 1232.87
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 88
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:29:44 GMT
+1 < Via: 1.1 694b0ce38b8004069ffb1709a6cadbc7.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: 8N4fQ6n4qZti7ADNR8JTRoj_9Yobla1j3R-dLKS0k9sp75Y-Ukfkkw==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 03dbc996-4a31-48e9-b568-faf3bb326359
+{"data":{"friends":[{"email":"sheharyar28@hotmail.com","name":"zoro","userId":"1122"}]}}
+
+03:29:43.951 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "friends": [
+      {
+        "name": "zoro",
+        "userId": "1122",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}
+
+03:29:43.982 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:29:43.982 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n        friendsoffriends {\nemail\nname\nuserId\n        }\n      }"}
+
+03:29:44.483 [main] DEBUG com.intuit.karate - response time in milliseconds: 496.05
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 131
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:29:45 GMT
+1 < Via: 1.1 9479799dad861cdf0bd479902b6da5d8.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: NtzeXG_SEzgTn0c3u7JkQHjSSQ7kZ7mPfcJ7EzJTugTVV1zluww5XQ==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 2c53a21f-3fa5-4c3e-ba44-81d36fec66bb
+{"data":{"friendsoffriends":[{"email":"sheharyar28@hotmail.com","name":"sherry","userId":"0ce404a8-7e04-483f-8aa2-3781e699d360"}]}}
+
+03:29:44.483 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "friendsoffriends": [
+      {
+        "name": "sherry",
+        "userId": "0ce404a8-7e04-483f-8aa2-3781e699d360",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}
+
+03:29:44.499 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:29:44.499 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 153
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  latestReviews(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n    createdAt\n    restaurantId\n    reviewId\n    text\n  }\n}"}
+
+03:29:44.940 [main] DEBUG com.intuit.karate - response time in milliseconds: 436.79
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 195
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:29:45 GMT
+1 < Via: 1.1 7a79db0478a7927641c778a2b2007a7a.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: s7ujJLE821jX6-ldTQuRiKokrBRFr7sTKnzC0SsSCEVZJLqgF2lwQg==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: ae35a379-a2be-4737-b7be-0396d3931bb2
+{"data":{"latestReviews":[{"createdAt":"1615364843024","restaurantId":"933db694-db29-4d2c-aafb-4a46577134e2","reviewId":"b8d52f67-6523-4b4a-9b1a-acd4017381af","text":"best burger in the town"}]}}
+
+03:29:44.940 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "latestReviews": [
+      {
+        "createdAt": "1615364843024",
+        "text": "best burger in the town",
+        "restaurantId": "933db694-db29-4d2c-aafb-4a46577134e2",
+        "reviewId": "b8d52f67-6523-4b4a-9b1a-acd4017381af"
+      }
+    ]
+  }
+}
+
+03:29:44.955 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:29:44.955 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 52
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  relation(targetUserId: \"1122\")\n}"}
+
+03:29:45.455 [main] DEBUG com.intuit.karate - response time in milliseconds: 485.33
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 30
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:29:46 GMT
+1 < Via: 1.1 d29f1d751e35e94b082fce656abad4ff.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: yespXlvYJq7i0it8lWpCWYFnNhH8nFmg0OeciUo7-XMzJquqlcDeWA==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: a5c8db7f-847d-4962-808d-a626752452f3
+{"data":{"relation":"friend"}}
+
+03:29:45.457 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "relation": "friend"
+  }
+}
+
+03:29:45.487 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:29:45.487 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 180
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n      restaurantRating(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n        commulative\n        dislikes\n        likes\n        total\n      }\n    }"}
+
+03:29:45.853 [main] DEBUG com.intuit.karate - response time in milliseconds: 358.96
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:29:46 GMT
+1 < Via: 1.1 e7b895fd3bb39cae82eb3570b1e92637.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: lnWQ3jh0qijVU5g31HJsx0LE2u3jBT-WAK4lLrdSrllPtntfgg-cmQ==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 89612a75-213f-47d5-afb2-5a2d400692d2
+{"data":{"restaurantRating":{"commulative":4,"dislikes":8,"likes":12,"total":20}}}
+
+03:29:45.854 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "restaurantRating": {
+      "total": 20,
+      "dislikes": 8,
+      "commulative": 4,
+      "likes": 12
+    }
+  }
+}
+
+03:29:45.873 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:29:45.873 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 136
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  restaurantRecommendationsByFriends(friendId: \"1122\") {\n    address\n    distance\n    name\n    restaurantId\n  }\n}"}
+
+03:29:46.333 [main] DEBUG com.intuit.karate - response time in milliseconds: 453.40
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 50
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:29:46 GMT
+1 < Via: 1.1 775546ff387a8cddd75fe8854c9b34ae.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: oic0J9yC-vwnJCafH8L4aB36asVhqaA3vsb5Rr3XTRmTJl-ZBkBMfg==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 53495c8c-e0f9-4874-81d6-99239e6d5e8b
+{"data":{"restaurantRecommendationsByFriends":[]}}
+
+03:29:46.334 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "restaurantRecommendationsByFriends": [
+    ]
+  }
+}
+
+03:29:46.336 [main] ERROR com.intuit.karate - assertion failed: path: $.data.restaurantRecommendationsByFriends[*].length, actual: [], expected: 0, reason: not equal (JSONArray : Integer)
+03:30:30.270 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:30:33.694 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n    friends {\n      email\n      name\n      userId\n    }\n  }"}
+
+03:30:34.606 [main] DEBUG com.intuit.karate - response time in milliseconds: 921.91
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 88
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:30:35 GMT
+1 < Via: 1.1 e7b895fd3bb39cae82eb3570b1e92637.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: sAsm6Kv9BWP62udbbtB4-yaVCw5Oef7wDNIYWV34wzpjbFIgRFWYZg==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 04ef36bf-1e05-4c81-91f9-090ff90c93df
+{"data":{"friends":[{"email":"sheharyar28@hotmail.com","name":"zoro","userId":"1122"}]}}
+
+03:30:34.627 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "friends": [
+      {
+        "name": "zoro",
+        "userId": "1122",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}
+
+03:30:34.668 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:30:34.674 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n        friendsoffriends {\nemail\nname\nuserId\n        }\n      }"}
+
+03:30:35.181 [main] DEBUG com.intuit.karate - response time in milliseconds: 506.02
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 131
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:30:35 GMT
+1 < Via: 1.1 e2ec2849f6a8ccccedfc4457c3cb6cf4.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: jsygv-mGXMng1z9HBv0xk9dgrb-KKI6lvY9XAte4li48cnW9bJOb6Q==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: dfd2295d-1d01-4651-865b-12a449a641db
+{"data":{"friendsoffriends":[{"email":"sheharyar28@hotmail.com","name":"sherry","userId":"0ce404a8-7e04-483f-8aa2-3781e699d360"}]}}
+
+03:30:35.183 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "friendsoffriends": [
+      {
+        "name": "sherry",
+        "userId": "0ce404a8-7e04-483f-8aa2-3781e699d360",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}
+
+03:30:35.203 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:30:35.208 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 153
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  latestReviews(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n    createdAt\n    restaurantId\n    reviewId\n    text\n  }\n}"}
+
+03:30:35.734 [main] DEBUG com.intuit.karate - response time in milliseconds: 525.35
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 195
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:30:36 GMT
+1 < Via: 1.1 3340f4226469787c29ee46b57612ee94.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: b6MJ9G_BGt8sX-aQXL5lp3cgDy8yUhcc5L29YcfQ8_6ijUVsopEsdw==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 263a2ec1-24e2-46e3-bdbd-9a1e5239040b
+{"data":{"latestReviews":[{"createdAt":"1615364843024","restaurantId":"933db694-db29-4d2c-aafb-4a46577134e2","reviewId":"b8d52f67-6523-4b4a-9b1a-acd4017381af","text":"best burger in the town"}]}}
+
+03:30:35.737 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "latestReviews": [
+      {
+        "createdAt": "1615364843024",
+        "text": "best burger in the town",
+        "restaurantId": "933db694-db29-4d2c-aafb-4a46577134e2",
+        "reviewId": "b8d52f67-6523-4b4a-9b1a-acd4017381af"
+      }
+    ]
+  }
+}
+
+03:30:35.757 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:30:35.763 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 52
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  relation(targetUserId: \"1122\")\n}"}
+
+03:30:36.133 [main] DEBUG com.intuit.karate - response time in milliseconds: 368.73
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 30
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:30:36 GMT
+1 < Via: 1.1 eee0602d0c6f247647395ec879baf443.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: A4u2Lm_HKZAWsquT3Mwmw-P0qFcQb-JT4jOXWXsApx8VIQe1pEbvhQ==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 4fbb16c4-6b6a-4f4b-bbf0-b37130a6bf19
+{"data":{"relation":"friend"}}
+
+03:30:36.134 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "relation": "friend"
+  }
+}
+
+03:30:36.165 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:30:36.171 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 180
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n      restaurantRating(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n        commulative\n        dislikes\n        likes\n        total\n      }\n    }"}
+
+03:30:36.593 [main] DEBUG com.intuit.karate - response time in milliseconds: 420.58
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:30:37 GMT
+1 < Via: 1.1 d2bad5fc8763a3ceeccf636d1aad26d7.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: qQZkqnM5fbtV3WoMqyJhqRW3vfVfwni0dyVcE8x5uhYX9SqJVrZ0YA==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: f5f2d27b-beac-45bb-9417-9eb8b7ce25c4
+{"data":{"restaurantRating":{"commulative":4,"dislikes":8,"likes":12,"total":20}}}
+
+03:30:36.594 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "restaurantRating": {
+      "total": 20,
+      "dislikes": 8,
+      "commulative": 4,
+      "likes": 12
+    }
+  }
+}
+
+03:30:36.616 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:30:36.621 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 136
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  restaurantRecommendationsByFriends(friendId: \"1122\") {\n    address\n    distance\n    name\n    restaurantId\n  }\n}"}
+
+03:30:37.012 [main] DEBUG com.intuit.karate - response time in milliseconds: 390.18
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 50
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:30:37 GMT
+1 < Via: 1.1 3b7fbfe97fda90473a7f2324504fafb0.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: dsgq5oF2BEnjms_17dOMtalOd5Z9xauEjtLufAYatU8s_4-e6EHxEg==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 528d613d-b584-40bd-9a58-4d0ee90ccc4f
+{"data":{"restaurantRecommendationsByFriends":[]}}
+
+03:30:37.014 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "restaurantRecommendationsByFriends": [
+    ]
+  }
+}
+
+03:31:54.340 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:31:58.766 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n    friends {\n      email\n      name\n      userId\n    }\n  }"}
+
+03:31:59.936 [main] DEBUG com.intuit.karate - response time in milliseconds: 1173.89
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 88
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:32:00 GMT
+1 < Via: 1.1 3b7fbfe97fda90473a7f2324504fafb0.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: Wzk8kffqfIlzVolwn5y2fcVwHQO5s0PagP_0TqPEm62iUTUnZbSAcA==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: eb53d194-35ea-44d7-a031-9f804e31c17b
+{"data":{"friends":[{"email":"sheharyar28@hotmail.com","name":"zoro","userId":"1122"}]}}
+
+03:31:59.951 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "friends": [
+      {
+        "name": "zoro",
+        "userId": "1122",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}
+
+03:31:59.993 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:32:00.000 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n        friendsoffriends {\nemail\nname\nuserId\n        }\n      }"}
+
+03:32:00.454 [main] DEBUG com.intuit.karate - response time in milliseconds: 453.14
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 131
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:32:01 GMT
+1 < Via: 1.1 9c0c14327fd65071b1c7227ffe6bca2d.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: j-eQ_CBjvQKgiTDVMWEbv__By8HkteYgt_2gvbhB_nZzH1O7kfDUEg==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 3109b2a7-22fb-4ee3-9aae-cbcaacbcd313
+{"data":{"friendsoffriends":[{"email":"sheharyar28@hotmail.com","name":"sherry","userId":"0ce404a8-7e04-483f-8aa2-3781e699d360"}]}}
+
+03:32:00.456 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "friendsoffriends": [
+      {
+        "name": "sherry",
+        "userId": "0ce404a8-7e04-483f-8aa2-3781e699d360",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}
+
+03:32:00.477 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:32:00.482 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 153
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  latestReviews(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n    createdAt\n    restaurantId\n    reviewId\n    text\n  }\n}"}
+
+03:32:00.917 [main] DEBUG com.intuit.karate - response time in milliseconds: 433.64
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 195
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:32:01 GMT
+1 < Via: 1.1 287029756b3b548e3285589a3a05ee88.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: qWD-Q91alSsk0CkIai6wGYLEN3995yDJ4nhj9doA0mUTgSKGpA3Vew==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 26d8d6a7-3d1c-4e75-b584-0dfe728f9456
+{"data":{"latestReviews":[{"createdAt":"1615364843024","restaurantId":"933db694-db29-4d2c-aafb-4a46577134e2","reviewId":"b8d52f67-6523-4b4a-9b1a-acd4017381af","text":"best burger in the town"}]}}
+
+03:32:00.919 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "latestReviews": [
+      {
+        "createdAt": "1615364843024",
+        "text": "best burger in the town",
+        "restaurantId": "933db694-db29-4d2c-aafb-4a46577134e2",
+        "reviewId": "b8d52f67-6523-4b4a-9b1a-acd4017381af"
+      }
+    ]
+  }
+}
+
+03:32:00.940 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:32:00.946 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 52
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  relation(targetUserId: \"1122\")\n}"}
+
+03:32:01.374 [main] DEBUG com.intuit.karate - response time in milliseconds: 426.54
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 30
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:32:01 GMT
+1 < Via: 1.1 09d9bb9cb1f94ea66119cc692cc82126.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: 8sM9rjfR6RBpaoSh4KRmqqMPt_e3vxrPY6esgi0SgWplqmxKPoR3Xw==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 184faa4f-c0c4-48c4-94c2-1d64472cecf7
+{"data":{"relation":"friend"}}
+
+03:32:01.376 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "relation": "friend"
+  }
+}
+
+03:32:01.406 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:32:01.412 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 180
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n      restaurantRating(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n        commulative\n        dislikes\n        likes\n        total\n      }\n    }"}
+
+03:32:01.875 [main] DEBUG com.intuit.karate - response time in milliseconds: 461.47
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:32:02 GMT
+1 < Via: 1.1 c26545d33c6c975eb8e9dc7f46a01855.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: Lw-eyyp1SnDNR1vVp9eXBStXxK7FiN2f3aEuoBftbO9v78fN19P2RA==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: a23fa479-0601-4e65-b6e4-076324b13e33
+{"data":{"restaurantRating":{"commulative":4,"dislikes":8,"likes":12,"total":20}}}
+
+03:32:01.877 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "restaurantRating": {
+      "total": 20,
+      "dislikes": 8,
+      "commulative": 4,
+      "likes": 12
+    }
+  }
+}
+
+03:32:01.899 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:32:01.905 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 136
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  restaurantRecommendationsByFriends(friendId: \"1122\") {\n    address\n    distance\n    name\n    restaurantId\n  }\n}"}
+
+03:32:02.293 [main] DEBUG com.intuit.karate - response time in milliseconds: 385.32
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 50
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:32:02 GMT
+1 < Via: 1.1 be2d494526ca7abfa44fb1ef4f3b32c4.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: qTnBgPTyQL5duMo1RViSrJ9wyrvNeGINFDsBavMXvAxFS8dxFqNeWw==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 2b4766f3-931f-4517-b70e-9bbc2a74b773
+{"data":{"restaurantRecommendationsByFriends":[]}}
+
+03:32:02.293 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "restaurantRecommendationsByFriends": [
+    ]
+  }
+}
+
+03:32:02.299 [main] ERROR com.intuit.karate - assertion failed: path: $.data.restaurantRecommendationsByFriends.length, actual: null, expected: '#[0]', reason: actual json-path does not exist
+03:32:29.902 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:32:35.303 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n    friends {\n      email\n      name\n      userId\n    }\n  }"}
+
+03:32:36.293 [main] DEBUG com.intuit.karate - response time in milliseconds: 985.42
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 88
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:32:36 GMT
+1 < Via: 1.1 e98c0dd57dce49ca504e9bb251187ab6.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: LArj96pmWLQV2nwdgiPNjSPDfL_9PnfDdn6yz8i4XLaEkQh76II79w==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: e7784a65-a238-4162-8c9d-dd0279513dc5
+{"data":{"friends":[{"email":"sheharyar28@hotmail.com","name":"zoro","userId":"1122"}]}}
+
+03:32:36.302 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "friends": [
+      {
+        "name": "zoro",
+        "userId": "1122",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}
+
+03:32:36.351 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:32:36.362 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n        friendsoffriends {\nemail\nname\nuserId\n        }\n      }"}
+
+03:32:36.832 [main] DEBUG com.intuit.karate - response time in milliseconds: 466.34
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 131
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:32:37 GMT
+1 < Via: 1.1 3b7fbfe97fda90473a7f2324504fafb0.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: PKyz80W3ZFkB4xDLYKxvSfPOiG_WFFYWFN1-XyZkHdiRNcZ9RQhfsw==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: ac64e740-baca-4ca9-bf5d-f9bb9955eca3
+{"data":{"friendsoffriends":[{"email":"sheharyar28@hotmail.com","name":"sherry","userId":"0ce404a8-7e04-483f-8aa2-3781e699d360"}]}}
+
+03:32:36.834 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "friendsoffriends": [
+      {
+        "name": "sherry",
+        "userId": "0ce404a8-7e04-483f-8aa2-3781e699d360",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}
+
+03:32:36.855 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:32:36.861 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 153
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  latestReviews(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n    createdAt\n    restaurantId\n    reviewId\n    text\n  }\n}"}
+
+03:32:37.273 [main] DEBUG com.intuit.karate - response time in milliseconds: 410.51
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 195
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:32:37 GMT
+1 < Via: 1.1 775546ff387a8cddd75fe8854c9b34ae.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: JBJk6O6Qr3ELdfUoZZpNI7tM69MqOL1NU8Z9HVzJfjr7ecnXcfP64w==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 74926e3c-7f15-448b-a51f-9afda2ad1206
+{"data":{"latestReviews":[{"createdAt":"1615364843024","restaurantId":"933db694-db29-4d2c-aafb-4a46577134e2","reviewId":"b8d52f67-6523-4b4a-9b1a-acd4017381af","text":"best burger in the town"}]}}
+
+03:32:37.275 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "latestReviews": [
+      {
+        "createdAt": "1615364843024",
+        "text": "best burger in the town",
+        "restaurantId": "933db694-db29-4d2c-aafb-4a46577134e2",
+        "reviewId": "b8d52f67-6523-4b4a-9b1a-acd4017381af"
+      }
+    ]
+  }
+}
+
+03:32:37.301 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:32:37.307 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 52
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  relation(targetUserId: \"1122\")\n}"}
+
+03:32:37.731 [main] DEBUG com.intuit.karate - response time in milliseconds: 422.62
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 30
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:32:38 GMT
+1 < Via: 1.1 0731e9219a4c73f69cb3183e0d328993.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: WDwKBJuXIfl_tpWj4428NOPyXF8-AIkRlmRVwxTczov61O4sGUTvLA==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 24000cd6-0f5c-445a-9e82-3ad537caad8c
+{"data":{"relation":"friend"}}
+
+03:32:37.740 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "relation": "friend"
+  }
+}
+
+03:32:37.770 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:32:37.776 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 180
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n      restaurantRating(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n        commulative\n        dislikes\n        likes\n        total\n      }\n    }"}
+
+03:32:38.154 [main] DEBUG com.intuit.karate - response time in milliseconds: 376.74
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:32:38 GMT
+1 < Via: 1.1 d8e9176f47607f3f1d3bfa8fb4239438.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: uyRMUJix3Miq-mACvC2NyuoxqVyCcaiDOlWjLPa-VxWPXFXkgzKMng==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 1c59d1be-8475-43d2-aa9e-739bd1a89178
+{"data":{"restaurantRating":{"commulative":4,"dislikes":8,"likes":12,"total":20}}}
+
+03:32:38.155 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "restaurantRating": {
+      "total": 20,
+      "dislikes": 8,
+      "commulative": 4,
+      "likes": 12
+    }
+  }
+}
+
+03:32:38.180 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:32:38.186 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 136
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  restaurantRecommendationsByFriends(friendId: \"1122\") {\n    address\n    distance\n    name\n    restaurantId\n  }\n}"}
+
+03:32:38.652 [main] DEBUG com.intuit.karate - response time in milliseconds: 463.81
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 50
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:32:39 GMT
+1 < Via: 1.1 d2bad5fc8763a3ceeccf636d1aad26d7.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: xhaPmPlpF7i3-2fvgCxGrgGkSAH1bvmUu4wwPdW5BB1UAZ2nULAkFg==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 9452b3c7-c822-492a-ab9c-0e0bae700883
+{"data":{"restaurantRecommendationsByFriends":[]}}
+
+03:32:38.653 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "restaurantRecommendationsByFriends": [
+    ]
+  }
+}
+
+03:46:26.081 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:46:29.620 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n    friends {\n      email\n      name\n      userId\n    }\n  }"}
+
+03:46:31.989 [main] DEBUG com.intuit.karate - response time in milliseconds: 2355.06
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 226
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:46:32 GMT
+1 < Via: 1.1 9c0c14327fd65071b1c7227ffe6bca2d.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: 2Snd9w2UnGOUHeaa3siKenrX3LmD0A9JemJ1qlsPIG0lKHP7V0QjAg==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 4ec2be50-8681-4b97-be64-0b9d49bc927d
+{"data":{"friends":[{"email":"sheharyar28@hotmail.com","name":"pokemon","userId":"123321"},{"email":"sheharyar28@hotmail.com","name":"zoro","userId":"1122"},{"email":"sheharyar28@hotmail.com","name":"ali","userId":"112233"}]}}
+
+03:46:31.997 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "friends": [
+      {
+        "name": "pokemon",
+        "userId": "123321",
+        "email": "sheharyar28@hotmail.com"
+      },
+      {
+        "name": "zoro",
+        "userId": "1122",
+        "email": "sheharyar28@hotmail.com"
+      },
+      {
+        "name": "ali",
+        "userId": "112233",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}
+
+03:46:32.035 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:46:32.042 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n        friendsoffriends {\nemail\nname\nuserId\n        }\n      }"}
+
+03:46:32.535 [main] DEBUG com.intuit.karate - response time in milliseconds: 491.66
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 131
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:46:33 GMT
+1 < Via: 1.1 a31366a53812bf34f3391396b61f5832.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: EjpJm-_OvupAkEcu9fJoiE2kFl2KHP77EOLsRmm_jelFlwJqhT_gFg==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 3bd53989-26c4-4af6-b73d-149b7b8088e3
+{"data":{"friendsoffriends":[{"email":"sheharyar28@hotmail.com","name":"sherry","userId":"0ce404a8-7e04-483f-8aa2-3781e699d360"}]}}
+
+03:46:32.537 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "friendsoffriends": [
+      {
+        "name": "sherry",
+        "userId": "0ce404a8-7e04-483f-8aa2-3781e699d360",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}
+
+03:46:32.557 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:46:32.563 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 153
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  latestReviews(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n    createdAt\n    restaurantId\n    reviewId\n    text\n  }\n}"}
+
+03:46:33.013 [main] DEBUG com.intuit.karate - response time in milliseconds: 448.29
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 195
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:46:33 GMT
+1 < Via: 1.1 c26545d33c6c975eb8e9dc7f46a01855.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: 8IGFJzNWyA8QKYE4-6NmUCwa9u4LBKttKAN9HtF77IIfBm19ca1C4g==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 9499446a-3ef6-4e8e-92bf-156445d09412
+{"data":{"latestReviews":[{"createdAt":"1615364843024","restaurantId":"933db694-db29-4d2c-aafb-4a46577134e2","reviewId":"b8d52f67-6523-4b4a-9b1a-acd4017381af","text":"best burger in the town"}]}}
+
+03:46:33.014 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "latestReviews": [
+      {
+        "createdAt": "1615364843024",
+        "text": "best burger in the town",
+        "restaurantId": "933db694-db29-4d2c-aafb-4a46577134e2",
+        "reviewId": "b8d52f67-6523-4b4a-9b1a-acd4017381af"
+      }
+    ]
+  }
+}
+
+03:46:33.042 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:46:33.046 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 52
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  relation(targetUserId: \"1122\")\n}"}
+
+03:46:33.457 [main] DEBUG com.intuit.karate - response time in milliseconds: 409.15
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 30
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:46:34 GMT
+1 < Via: 1.1 5e8999171cb0e7552ddfa2db2008e6b8.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: HRDFQysWlkCWh5tm0zKSSoLtjANaW3RxuQUWcT4Fey9O8eGc0M8YBA==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: b44d5c7f-90b2-42eb-acdd-868c9eecd057
+{"data":{"relation":"friend"}}
+
+03:46:33.458 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "relation": "friend"
+  }
+}
+
+03:46:33.476 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:46:33.480 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 180
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n      restaurantRating(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n        commulative\n        dislikes\n        likes\n        total\n      }\n    }"}
+
+03:46:33.959 [main] DEBUG com.intuit.karate - response time in milliseconds: 477.25
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:46:34 GMT
+1 < Via: 1.1 7a79db0478a7927641c778a2b2007a7a.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: -QqR0gRkBSX7WQJr_hYwy9lXC26lKJI2cAy7wpbI_QRwWTSxZ7iQDA==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 740233b5-9265-4b7a-9bce-e950d83bc5c5
+{"data":{"restaurantRating":{"commulative":4,"dislikes":8,"likes":12,"total":20}}}
+
+03:46:33.961 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "restaurantRating": {
+      "total": 20,
+      "dislikes": 8,
+      "commulative": 4,
+      "likes": 12
+    }
+  }
+}
+
+03:46:33.985 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:46:33.991 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 136
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  restaurantRecommendationsByFriends(friendId: \"1122\") {\n    address\n    distance\n    name\n    restaurantId\n  }\n}"}
+
+03:46:34.337 [main] DEBUG com.intuit.karate - response time in milliseconds: 344.36
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 50
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:46:34 GMT
+1 < Via: 1.1 6bac97e632f51f2a26c993dca8b62ecd.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: qkxpNrXRAIW4l5TsNz6yqP1BW9PzMCQKCRKdT7Vq3BnzBrbZoPvqtQ==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: b3aa0bc4-a0a2-4724-992a-c84e26c0fef2
+{"data":{"restaurantRecommendationsByFriends":[]}}
+
+03:46:34.339 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "restaurantRecommendationsByFriends": [
+    ]
+  }
+}
+
+03:46:34.365 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:46:34.371 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 112
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  reviewedInLastXDays(days: 100) {\n    address\n    distance\n    name\n    restaurantId\n  }\n}"}
+
+03:46:34.735 [main] DEBUG com.intuit.karate - response time in milliseconds: 353.90
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 35
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:46:35 GMT
+1 < Via: 1.1 551bbd55395abdcded1e684a4e5055c7.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: gwq7OVndzBk1rzDRz6Ja6ZRDzfYLJR6en7ZD_uP7AZXlOfE_CX_6QA==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: f98adbf1-e5b3-4e15-ae09-655be78591a7
+{"data":{"reviewedInLastXDays":[]}}
+
+03:46:34.737 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "reviewedInLastXDays": [
+    ]
+  }
+}
+
+03:46:34.738 [main] ERROR com.intuit.karate - assertion failed: path: $.data.restaurantRecommendationsByFriends, actual: null, expected: '#[0]', reason: actual json-path does not exist
+03:46:34.778 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:46:34.783 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 152
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  searchBestWithCusineAndLocation(distanceOffset: 100, name: \"pakora\") {\n    address\n    distance\n    name\n    restaurantId\n  }\n}"}
+
+03:46:35.254 [main] DEBUG com.intuit.karate - response time in milliseconds: 469.46
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 152
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:46:35 GMT
+1 < Via: 1.1 551bbd55395abdcded1e684a4e5055c7.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: Rco15FsVaHmOzRqinb82l6nOFSaII36ZSO9pfWdNgLfE09J6AvXOTA==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: d2b2df34-9522-4f5b-831b-9cacd8f31d34
+{"data":{"searchBestWithCusineAndLocation":{"address":"fsd","distance":60,"name":"doctor saucy","restaurantId":"933db694-db29-4d2c-aafb-4a46577134e2"}}}
+
+03:46:35.255 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "searchBestWithCusineAndLocation": {
+      "address": "fsd",
+      "distance": 60,
+      "name": "doctor saucy",
+      "restaurantId": "933db694-db29-4d2c-aafb-4a46577134e2"
+    }
+  }
+}
+
+03:47:46.644 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:47:51.420 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n    friends {\n      email\n      name\n      userId\n    }\n  }"}
+
+03:47:52.552 [main] DEBUG com.intuit.karate - response time in milliseconds: 1127.62
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 226
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:47:53 GMT
+1 < Via: 1.1 775546ff387a8cddd75fe8854c9b34ae.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: cWzBVc1qoSDQv3bYylxj5pzONQqoBoz1xZLozFy9Bv6c_KDxCqy8tQ==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 448a5636-7f61-43ee-923f-fe4d77e7f87e
+{"data":{"friends":[{"email":"sheharyar28@hotmail.com","name":"pokemon","userId":"123321"},{"email":"sheharyar28@hotmail.com","name":"zoro","userId":"1122"},{"email":"sheharyar28@hotmail.com","name":"ali","userId":"112233"}]}}
+
+03:47:52.561 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "friends": [
+      {
+        "name": "pokemon",
+        "userId": "123321",
+        "email": "sheharyar28@hotmail.com"
+      },
+      {
+        "name": "zoro",
+        "userId": "1122",
+        "email": "sheharyar28@hotmail.com"
+      },
+      {
+        "name": "ali",
+        "userId": "112233",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}
+
+03:47:52.606 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:47:52.616 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n        friendsoffriends {\nemail\nname\nuserId\n        }\n      }"}
+
+03:47:53.078 [main] DEBUG com.intuit.karate - response time in milliseconds: 461.59
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 131
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:47:53 GMT
+1 < Via: 1.1 c67bee74e594a64e7a1b4952698c81fb.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: NHp9P5o8ysSzXMUvjSDDUU4_xLzUagbYGReonTuh0Dsuo8pCWwB1eA==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 57476c7d-0792-40f3-965e-9030a76b6b63
+{"data":{"friendsoffriends":[{"email":"sheharyar28@hotmail.com","name":"sherry","userId":"0ce404a8-7e04-483f-8aa2-3781e699d360"}]}}
+
+03:47:53.080 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "friendsoffriends": [
+      {
+        "name": "sherry",
+        "userId": "0ce404a8-7e04-483f-8aa2-3781e699d360",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}
+
+03:47:53.101 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:47:53.106 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 153
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  latestReviews(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n    createdAt\n    restaurantId\n    reviewId\n    text\n  }\n}"}
+
+03:47:53.517 [main] DEBUG com.intuit.karate - response time in milliseconds: 410.03
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 195
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:47:54 GMT
+1 < Via: 1.1 5e8999171cb0e7552ddfa2db2008e6b8.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: fi7EaWPVJv4cv-3beujGi1wO5-QpTl5LITntGm2soxnOmndunlhi0A==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 162774c8-7872-4734-905c-3ba61abcb428
+{"data":{"latestReviews":[{"createdAt":"1615364843024","restaurantId":"933db694-db29-4d2c-aafb-4a46577134e2","reviewId":"b8d52f67-6523-4b4a-9b1a-acd4017381af","text":"best burger in the town"}]}}
+
+03:47:53.519 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "latestReviews": [
+      {
+        "createdAt": "1615364843024",
+        "text": "best burger in the town",
+        "restaurantId": "933db694-db29-4d2c-aafb-4a46577134e2",
+        "reviewId": "b8d52f67-6523-4b4a-9b1a-acd4017381af"
+      }
+    ]
+  }
+}
+
+03:47:53.550 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:47:53.557 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 52
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  relation(targetUserId: \"1122\")\n}"}
+
+03:47:53.901 [main] DEBUG com.intuit.karate - response time in milliseconds: 342.89
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 30
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:47:54 GMT
+1 < Via: 1.1 6157d947e45a7f6065fc979e74d098cf.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: GQuvXvYtCtg5hHfCH1HVfwX9Vb7iTPnTMi8QXxUsUOOhGuoHcXhedg==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: d62eda10-e54f-4e39-9e56-35c5be82b33f
+{"data":{"relation":"friend"}}
+
+03:47:53.903 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "relation": "friend"
+  }
+}
+
+03:47:53.922 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:47:53.927 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 180
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n      restaurantRating(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n        commulative\n        dislikes\n        likes\n        total\n      }\n    }"}
+
+03:47:54.356 [main] DEBUG com.intuit.karate - response time in milliseconds: 427.67
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:47:54 GMT
+1 < Via: 1.1 694b0ce38b8004069ffb1709a6cadbc7.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: qU8pKGk4nWVaffpTI0ufvlLOxfj_-IeoSa-TntSQK5EtU3onuk_RQQ==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 8242d838-f3ca-4635-87de-3c5bed693fa2
+{"data":{"restaurantRating":{"commulative":4,"dislikes":8,"likes":12,"total":20}}}
+
+03:47:54.358 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "restaurantRating": {
+      "total": 20,
+      "dislikes": 8,
+      "commulative": 4,
+      "likes": 12
+    }
+  }
+}
+
+03:47:54.387 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:47:54.394 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 136
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  restaurantRecommendationsByFriends(friendId: \"1122\") {\n    address\n    distance\n    name\n    restaurantId\n  }\n}"}
+
+03:47:54.777 [main] DEBUG com.intuit.karate - response time in milliseconds: 381.08
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 50
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:47:55 GMT
+1 < Via: 1.1 d20bd78252092a83033b53936adadb65.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: 6LcRoHSGWsF1RSuq5oGRMRXaZ9o_p0QS3XV2lqmsuuhgJtmyLVEoHA==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 9662fc0f-01c2-43ef-950d-37ece948d262
+{"data":{"restaurantRecommendationsByFriends":[]}}
+
+03:47:54.778 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "restaurantRecommendationsByFriends": [
+    ]
+  }
+}
+
+03:47:54.801 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:47:54.806 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 112
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  reviewedInLastXDays(days: 100) {\n    address\n    distance\n    name\n    restaurantId\n  }\n}"}
+
+03:47:55.476 [main] DEBUG com.intuit.karate - response time in milliseconds: 662.03
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 35
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:47:56 GMT
+1 < Via: 1.1 3b7fbfe97fda90473a7f2324504fafb0.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: IQBR-Gm0fnqVn8Y0HScD4uNJ2vCZGanQtT-jKBtjIO8yeAmXc5TOVg==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 5c8e661a-192b-4204-9e2b-bd5b209980e6
+{"data":{"reviewedInLastXDays":[]}}
+
+03:47:55.478 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "reviewedInLastXDays": [
+    ]
+  }
+}
+
+03:47:55.493 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:47:55.499 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 152
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  searchBestWithCusineAndLocation(distanceOffset: 100, name: \"pakora\") {\n    address\n    distance\n    name\n    restaurantId\n  }\n}"}
+
+03:47:55.919 [main] DEBUG com.intuit.karate - response time in milliseconds: 419.32
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 152
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:47:56 GMT
+1 < Via: 1.1 649f2d5b78b576a4e054c850d1f18e2f.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: DLc6PfuznLlC8gi5atxRo2ANSYk3qqskldNfSMfRuvuySlwftTbHUw==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 542b69b4-9dac-4dda-a5fe-57f1e80e46d3
+{"data":{"searchBestWithCusineAndLocation":{"address":"fsd","distance":60,"name":"doctor saucy","restaurantId":"933db694-db29-4d2c-aafb-4a46577134e2"}}}
+
+03:47:55.921 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "searchBestWithCusineAndLocation": {
+      "address": "fsd",
+      "distance": 60,
+      "name": "doctor saucy",
+      "restaurantId": "933db694-db29-4d2c-aafb-4a46577134e2"
+    }
+  }
+}
+
+03:50:48.263 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:50:52.828 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n    friends {\n      email\n      name\n      userId\n    }\n  }"}
+
+03:50:54.052 [main] DEBUG com.intuit.karate - response time in milliseconds: 1220.87
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 226
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:50:54 GMT
+1 < Via: 1.1 6bac97e632f51f2a26c993dca8b62ecd.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: Hn9sB6utzX4cCtF_WKEjgl2nn2-zMd_g2yJZDtHtLNMV6MLpeedp6w==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 95427a68-edbe-4d2e-85bd-3ff393a81334
+{"data":{"friends":[{"email":"sheharyar28@hotmail.com","name":"pokemon","userId":"123321"},{"email":"sheharyar28@hotmail.com","name":"zoro","userId":"1122"},{"email":"sheharyar28@hotmail.com","name":"ali","userId":"112233"}]}}
+
+03:50:54.059 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "friends": [
+      {
+        "name": "pokemon",
+        "userId": "123321",
+        "email": "sheharyar28@hotmail.com"
+      },
+      {
+        "name": "zoro",
+        "userId": "1122",
+        "email": "sheharyar28@hotmail.com"
+      },
+      {
+        "name": "ali",
+        "userId": "112233",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}
+
+03:50:54.093 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:50:54.100 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n        friendsoffriends {\nemail\nname\nuserId\n        }\n      }"}
+
+03:50:54.539 [main] DEBUG com.intuit.karate - response time in milliseconds: 437.91
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 131
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:50:55 GMT
+1 < Via: 1.1 d20bd78252092a83033b53936adadb65.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: dxt57zoMFB7RRBNkJJ7GG4NQG3fU7445aqq6OmJoqRZhhdd5vSLtng==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: b53da5a5-35a3-4e68-9d5d-c9777bd63853
+{"data":{"friendsoffriends":[{"email":"sheharyar28@hotmail.com","name":"sherry","userId":"0ce404a8-7e04-483f-8aa2-3781e699d360"}]}}
+
+03:50:54.541 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "friendsoffriends": [
+      {
+        "name": "sherry",
+        "userId": "0ce404a8-7e04-483f-8aa2-3781e699d360",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}
+
+03:50:54.563 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:50:54.569 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 153
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  latestReviews(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n    createdAt\n    restaurantId\n    reviewId\n    text\n  }\n}"}
+
+03:50:54.964 [main] DEBUG com.intuit.karate - response time in milliseconds: 394.14
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 195
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:50:55 GMT
+1 < Via: 1.1 241d42aec84c34a76f247329b30f2357.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: OXW7LPKqmUhYZjaZLbxbZt5ZqK5AvthmrJ-_D9uTrRynRIrTVeRuog==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 10cbb809-c2d2-465d-b1ff-b5871c2d500d
+{"data":{"latestReviews":[{"createdAt":"1615364843024","restaurantId":"933db694-db29-4d2c-aafb-4a46577134e2","reviewId":"b8d52f67-6523-4b4a-9b1a-acd4017381af","text":"best burger in the town"}]}}
+
+03:50:54.974 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "latestReviews": [
+      {
+        "createdAt": "1615364843024",
+        "text": "best burger in the town",
+        "restaurantId": "933db694-db29-4d2c-aafb-4a46577134e2",
+        "reviewId": "b8d52f67-6523-4b4a-9b1a-acd4017381af"
+      }
+    ]
+  }
+}
+
+03:50:54.999 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:50:55.005 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 52
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  relation(targetUserId: \"1122\")\n}"}
+
+03:50:55.520 [main] DEBUG com.intuit.karate - response time in milliseconds: 513.35
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 30
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:50:56 GMT
+1 < Via: 1.1 694b0ce38b8004069ffb1709a6cadbc7.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: MwA7ge_MkGKZRIUTOgvgRTptPZFLWdSZTjbkCUu3w2--91Cb3hQMWA==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: a673bade-3276-4e50-b70c-ef557780cbb1
+{"data":{"relation":"friend"}}
+
+03:50:55.522 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "relation": "friend"
+  }
+}
+
+03:50:55.549 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:50:55.555 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 180
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n      restaurantRating(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n        commulative\n        dislikes\n        likes\n        total\n      }\n    }"}
+
+03:50:55.939 [main] DEBUG com.intuit.karate - response time in milliseconds: 382.59
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:50:56 GMT
+1 < Via: 1.1 5728273f1eed1f96e3a24b2c1dbc84ec.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: kQ7yG48bLGcP4anqwIQDK8UYNNG3Ck957ei2QMfOfqpfpowzxmZxpA==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: b1b9e92d-dbee-412a-821b-692d2ee37edd
+{"data":{"restaurantRating":{"commulative":4,"dislikes":8,"likes":12,"total":20}}}
+
+03:50:55.941 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "restaurantRating": {
+      "total": 20,
+      "dislikes": 8,
+      "commulative": 4,
+      "likes": 12
+    }
+  }
+}
+
+03:50:55.966 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:50:55.970 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 136
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  restaurantRecommendationsByFriends(friendId: \"1122\") {\n    address\n    distance\n    name\n    restaurantId\n  }\n}"}
+
+03:50:56.322 [main] DEBUG com.intuit.karate - response time in milliseconds: 349.76
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 50
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:50:56 GMT
+1 < Via: 1.1 c26545d33c6c975eb8e9dc7f46a01855.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: EaK7ppu_-FI77hCEcMA3NusFn-4pb3uQCsxIl5apXzpQ3kLcCgvN4g==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: bcb0c14c-e97e-47c4-9092-e39a43f6832d
+{"data":{"restaurantRecommendationsByFriends":[]}}
+
+03:50:56.323 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "restaurantRecommendationsByFriends": [
+    ]
+  }
+}
+
+03:50:56.349 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:50:56.364 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 112
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  reviewedInLastXDays(days: 100) {\n    address\n    distance\n    name\n    restaurantId\n  }\n}"}
+
+03:50:56.739 [main] DEBUG com.intuit.karate - response time in milliseconds: 372.20
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 35
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:50:57 GMT
+1 < Via: 1.1 9dcd873e8ff5cd4b8587beac61f23412.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: SUjBnwX0PZiMm74QkVXYmJPBkfTgxQF1VdpYc-DHwTijU6CpTUrDXQ==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: a9db6c10-71b3-4971-83ed-a965dbe7ebba
+{"data":{"reviewedInLastXDays":[]}}
+
+03:50:56.741 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "reviewedInLastXDays": [
+    ]
+  }
+}
+
+03:50:56.755 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:50:56.761 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 152
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  searchBestWithCusineAndLocation(distanceOffset: 100, name: \"pakora\") {\n    address\n    distance\n    name\n    restaurantId\n  }\n}"}
+
+03:50:57.179 [main] DEBUG com.intuit.karate - response time in milliseconds: 417.11
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 152
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:50:57 GMT
+1 < Via: 1.1 9fafc7375f15adafc97c9415253c02ca.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: TZaYT3QtHp-nGglvzroF9KFTpOdXtQOH1XYGwxY973-KbeOtUDemrA==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: dac5a2c0-df2d-49dd-a005-e3c3c4fa213d
+{"data":{"searchBestWithCusineAndLocation":{"address":"fsd","distance":60,"name":"doctor saucy","restaurantId":"933db694-db29-4d2c-aafb-4a46577134e2"}}}
+
+03:50:57.180 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "searchBestWithCusineAndLocation": {
+      "address": "fsd",
+      "distance": 60,
+      "name": "doctor saucy",
+      "restaurantId": "933db694-db29-4d2c-aafb-4a46577134e2"
+    }
+  }
+}
+
+03:50:57.197 [main] INFO  com.intuit.karate - karate.env system property was:  
+03:50:57.203 [main] DEBUG com.intuit.karate - request:
+1 > POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 108
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 > authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  topTen(distanceOffset: 50) {\n    address\n    distance\n    name\n    restaurantId\n  }\n}"}
+
+03:50:57.583 [main] DEBUG com.intuit.karate - response time in milliseconds: 378.45
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 127
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 10 Mar 2021 22:50:58 GMT
+1 < Via: 1.1 be2d494526ca7abfa44fb1ef4f3b32c4.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Id: -mslc44CoHlVLbgr8GvZqdWNo-rpyGCZgxyErzN3AZnDt2O53zLpYQ==
+1 < X-Amz-Cf-Pop: DXB50-C1
+1 < X-Cache: Miss from cloudfront
+1 < x-amzn-RequestId: 9cb8a9f9-4212-4d7c-b5f1-cb56f5d38760
+{"data":{"topTen":[{"address":"fsd","distance":40,"name":"baba tikka","restaurantId":"f751210c-9287-44dc-a6db-0aab08423658"}]}}
+
+03:50:57.585 [main] INFO  com.intuit.karate - [print] response: {
+  "data": {
+    "topTen": [
+      {
+        "address": "fsd",
+        "distance": 40,
+        "name": "baba tikka",
+        "restaurantId": "f751210c-9287-44dc-a6db-0aab08423658"
+      }
+    ]
+  }
+}
+

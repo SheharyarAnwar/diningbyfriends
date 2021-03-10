@@ -91,3 +91,78 @@ Feature: sample karate test script
     * print 'response:', response
     * match $.data.restaurantRating.commulative == 4
   
+  Scenario:'Recommended by friends'
+    Given text query =
+    """
+            {
+  restaurantRecommendationsByFriends(friendId: "1122") {
+    address
+    distance
+    name
+    restaurantId
+  }
+}
+    """
+    And request { query: '#(query)' }
+    When method post
+    Then status 200
+    * print 'response:', response
+    * match $.data.restaurantRecommendationsByFriends == '#[0]'
+
+
+    Scenario:'Reviewed In last 100 Days By Friends'
+    Given text query =
+    """
+            {
+  reviewedInLastXDays(days: 100) {
+    address
+    distance
+    name
+    restaurantId
+  }
+}
+    """
+    And request { query: '#(query)' }
+    When method post
+    Then status 200
+    * print 'response:', response
+    * match $.data.reviewedInLastXDays == '#[0]'
+  
+
+
+  Scenario:'Search Best With Cuisine And Location'
+    Given text query =
+    """
+            {
+  searchBestWithCusineAndLocation(distanceOffset: 100, name: "pakora") {
+    address
+    distance
+    name
+    restaurantId
+  }
+}
+    """
+    And request { query: '#(query)' }
+    When method post
+    Then status 200
+    * print 'response:', response
+    * match $.data.searchBestWithCusineAndLocation.name == 'doctor saucy'
+  
+
+  Scenario:'Top 10 Near Me'
+    Given text query =
+    """
+            {
+  topTen(distanceOffset: 50) {
+    address
+    distance
+    name
+    restaurantId
+  }
+}
+    """
+    And request { query: '#(query)' }
+    When method post
+    Then status 200
+    * print 'response:', response
+    * match $.data.topTen[*].name contains 'baba tikka'
