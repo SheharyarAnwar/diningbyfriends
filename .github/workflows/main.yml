@@ -36,3 +36,7 @@ jobs:
           -DarchetypeVersion=0.9.6
           -DgroupId=com.mycompany
           -DartifactId=myproject
+       - name: Goto project
+          run: cd myproject
+       - name: Run Tests
+          run: mvn test  
