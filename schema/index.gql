@@ -1,0 +1,79 @@
+type Person {
+  userId: String!
+  name: String!
+  email: String!
+}
+
+type Review {
+  reviewId: String!
+  text: String!
+  createdAt: String!
+  restaurantId: String!
+}
+
+type Restaurant {
+  name: String!
+  restaurantId: String!
+  address: String!
+  distance: Int!
+}
+
+type Cuisine {
+  name: String!
+  cuisineId: String!
+  restaurantId: String!
+}
+
+type Query {
+  friends: [Person]!
+  friendsoffriends: [Person]!
+  relation(targetUserId: String): String!
+  searchBestWithCusineAndLocation(
+    name: String!
+    distanceOffset: Int!
+  ): Restaurant
+  topTen(distanceOffset: Int!): [Restaurant]!
+  latestReviews(restaurantId: String!): [Review]!
+  restaurantRecommendationsByFriends(friendId: String!): [Restaurant]!
+  reviewedInLastXDays(days: Int!): [Restaurant]!
+  restaurantRating(restaurantId: String!): Rating!
+}
+
+type Mutation {
+  addPerson(name: String!, userId: String, email: String!): Person!
+  addRestaurant(restaurant: InputRestaurant): Restaurant!
+  addCuisine(cuisine: InputCuisine): Cuisine!
+  addReview(review: InputReview): Review!
+  addRating(reviewId: String, recommends: Boolean): Rating!
+  addFriend(userId: String): Person!
+}
+
+input InputRestaurant {
+  name: String!
+  restaurantId: String
+  address: String!
+  distance: Int!
+}
+
+input InputCuisine {
+  name: String!
+  cuisineId: String
+  restaurantId: String!
+}
+
+input InputReview {
+  reviewId: String
+  text: String!
+  restaurantId: String!
+}
+
+type Rating {
+  likes: Int!
+  dislikes: Int!
+  total: Int!
+  commulative: Int!
+}
+schema {
+  query: Query
+  mutation: Mutation
+}

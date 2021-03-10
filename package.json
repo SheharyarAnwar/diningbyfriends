@@ -12,16 +12,27 @@
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.91.0",
+    "@types/async": "^3.2.5",
+    "@types/aws-lambda": "^8.10.72",
+    "@types/gremlin": "^3.4.6",
     "@types/jest": "^26.0.10",
     "@types/node": "10.17.27",
+    "async": "^3.2.0",
+    "aws-cdk": "1.91.0",
+    "gremlin": "^3.4.10",
     "jest": "^26.4.2",
     "ts-jest": "^26.2.0",
-    "aws-cdk": "1.91.0",
     "ts-node": "^9.0.0",
     "typescript": "~3.9.7"
   },
   "dependencies": {
-    "@aws-cdk/core": "1.91.0",
+    "@aws-cdk/aws-appsync": "^1.92.0",
+    "@aws-cdk/aws-cognito": "^1.92.0",
+    "@aws-cdk/aws-lambda": "^1.92.0",
+    "@aws-cdk/aws-neptune": "^1.92.0",
+    "@aws-cdk/core": "^1.92.0",
+    "aws-lambda": "^1.0.6",
+    "aws-sdk": "^2.858.0",
     "source-map-support": "^0.5.16"
   }
 }
