@@ -32,6 +32,6 @@ jobs:
       - name: Maven Quickstart Karate
         run: mvn archetype:generate -DarchetypeGroupId=com.intuit.karate -DarchetypeArtifactId=karate-archetype -DarchetypeVersion=0.9.6 -DgroupId=com.mycompany -DartifactId=myproject
       - name: Goto project
-        run: cd myproject
+        run: cd myproject && ls
       - name: Run Tests
         run: mvn test
