@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>examples.friends.friends</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">5</div>
+            
+<div class="bg-danger" id="nav-fail">0</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2021-03-11 03:22:12 AM</div>        
+      
+<div class="nav-container">
+<div class="nav-item passed">
+<a href="#[1:10]">[1:10] Get Friends For Sherry And Look For Zoro </a>
+</div>
+<div class="nav-item passed">
+<a href="#[2:27]">[2:27] Friend of friend must be you yourself </a>
+</div>
+<div class="nav-item passed">
+<a href="#[3:44]">[3:44] 'Latest Reviews Of The Restaurant' </a>
+</div>
+<div class="nav-item passed">
+<a href="#[4:62]">[4:62] 'Relation Between X and Y(Me and Zoro)' </a>
+</div>
+<div class="nav-item passed">
+<a href="#[5:76]">[5:76] 'Restaurant Rating For A Restaurant (doctor saucy)' </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">examples/friends/friends.feature</span><span class="feature-description">sample karate test script | for help, see: https://github.com/intuit/karate/wiki/IDE-Support</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1:10]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [1:10]</span><span class="scenario-name">Get Friends For Sherry And Look For Zoro </span>
+</div>
+<div class="scenario-time passed">ms: 4446</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[1:10]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[1:10]bg">
+<div class="step-container" id="1">
+<div class="step-ref bg-step">1</div>
+<div class="step-cell passed">* url 'https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql'</div>
+</div>
+<div class="time-cell passed">3</div>
+</div>
+<div class="preformatted" data-parent="1">03:22:05.959 karate.env system property was:</div>
+<div class="step-row" data-parent="[1:10]bg">
+<div class="step-container" id="2">
+<div class="step-ref bg-step">2</div>
+<div class="step-cell passed">* configure headers = { authorization: 'eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ' }</div>
+</div>
+<div class="time-cell passed">4</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="3">
+<div class="step-ref passed">3</div>
+<div class="step-cell passed">Given text query =</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="3">{
+    friends {
+      email
+      name
+      userId
+    }
+  }</div>
+<div class="step-row">
+<div class="step-container" id="4">
+<div class="step-ref passed">4</div>
+<div class="step-cell passed">And request { query: '#(query)' }</div>
+</div>
+<div class="time-cell passed">5</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="5">
+<div class="step-ref passed">5</div>
+<div class="step-cell passed">When method post</div>
+</div>
+<div class="time-cell passed">4423</div>
+</div>
+<div class="preformatted" data-parent="5">03:22:09.351 request:
+1 &gt; POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 79
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 &gt; authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n    friends {\n      email\n      name\n      userId\n    }\n  }"}
+
+03:22:10.513 response time in milliseconds: 1161.28
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 88
+1 &lt; Content-Type: application/json;charset=UTF-8
+1 &lt; Date: Wed, 10 Mar 2021 22:22:11 GMT
+1 &lt; Via: 1.1 9479799dad861cdf0bd479902b6da5d8.cloudfront.net (CloudFront)
+1 &lt; X-Amz-Cf-Id: nWfB63yCdd8rnjqr_48rX6bUi7HpA0mPTrKAg-waeNh3hC6MxhXbyQ==
+1 &lt; X-Amz-Cf-Pop: DXB50-C1
+1 &lt; X-Cache: Miss from cloudfront
+1 &lt; x-amzn-RequestId: a6b1b3c5-e8b4-4c99-98c2-d407416bcdef
+{"data":{"friends":[{"email":"sheharyar28@hotmail.com","name":"zoro","userId":"1122"}]}}</div>
+<div class="step-row">
+<div class="step-container" id="6">
+<div class="step-ref passed">6</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="7">
+<div class="step-ref passed">7</div>
+<div class="step-cell passed">* print 'response:', response</div>
+</div>
+<div class="time-cell passed">5</div>
+</div>
+<div class="preformatted" data-parent="7">03:22:10.527 [print] response: {
+  "data": {
+    "friends": [
+      {
+        "name": "zoro",
+        "userId": "1122",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}</div>
+<div class="step-row">
+<div class="step-container" id="8">
+<div class="step-ref passed">8</div>
+<div class="step-cell passed">* match $.data.friends[*].name contains 'zoro'</div>
+</div>
+<div class="time-cell passed">6</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[2:27]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [2:27]</span><span class="scenario-name">Friend of friend must be you yourself </span>
+</div>
+<div class="scenario-time passed">ms: 492</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[2:27]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[2:27]bg">
+<div class="step-container" id="9">
+<div class="step-ref bg-step">9</div>
+<div class="step-cell passed">* url 'https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql'</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="9">03:22:10.562 karate.env system property was:</div>
+<div class="step-row" data-parent="[2:27]bg">
+<div class="step-container" id="10">
+<div class="step-ref bg-step">10</div>
+<div class="step-cell passed">* configure headers = { authorization: 'eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ' }</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="11">
+<div class="step-ref passed">11</div>
+<div class="step-cell passed">Given text query =</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="11">{
+        friendsoffriends {
+email
+name
+userId
+        }
+      }</div>
+<div class="step-row">
+<div class="step-container" id="12">
+<div class="step-ref passed">12</div>
+<div class="step-cell passed">And request { query: '#(query)' }</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="13">
+<div class="step-ref passed">13</div>
+<div class="step-cell passed">When method post</div>
+</div>
+<div class="time-cell passed">485</div>
+</div>
+<div class="preformatted" data-parent="13">03:22:10.568 request:
+1 &gt; POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 82
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 &gt; authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n        friendsoffriends {\nemail\nname\nuserId\n        }\n      }"}
+
+03:22:11.049 response time in milliseconds: 480.73
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 131
+1 &lt; Content-Type: application/json;charset=UTF-8
+1 &lt; Date: Wed, 10 Mar 2021 22:22:11 GMT
+1 &lt; Via: 1.1 e0b921f767bb28fe26301db0229ef1d2.cloudfront.net (CloudFront)
+1 &lt; X-Amz-Cf-Id: E7iK95srPNc6nbebai6t7TXO1xBDkw2pBVQxv0S7jluVPB5nzbICaQ==
+1 &lt; X-Amz-Cf-Pop: DXB50-C1
+1 &lt; X-Cache: Miss from cloudfront
+1 &lt; x-amzn-RequestId: f1f92012-afea-449d-bc62-84e91f755b53
+{"data":{"friendsoffriends":[{"email":"sheharyar28@hotmail.com","name":"sherry","userId":"0ce404a8-7e04-483f-8aa2-3781e699d360"}]}}</div>
+<div class="step-row">
+<div class="step-container" id="14">
+<div class="step-ref passed">14</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="15">
+<div class="step-ref passed">15</div>
+<div class="step-cell passed">* print 'response:', response</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="preformatted" data-parent="15">03:22:11.051 [print] response: {
+  "data": {
+    "friendsoffriends": [
+      {
+        "name": "sherry",
+        "userId": "0ce404a8-7e04-483f-8aa2-3781e699d360",
+        "email": "sheharyar28@hotmail.com"
+      }
+    ]
+  }
+}</div>
+<div class="step-row">
+<div class="step-container">
+<div class="step-ref passed"></div>
+<div class="step-cell comment"># * match $.data.friendsoffriends[*].email contains 'sheharyar28@hotmail.com'</div>
+</div>
+<div class="time-cell comment"></div>
+</div>
+<div class="step-row">
+<div class="step-container" id="16">
+<div class="step-ref passed">16</div>
+<div class="step-cell passed">* match $.data.friendsoffriends[*].userId contains '0ce404a8-7e04-483f-8aa2-3781e699d360'</div>
+</div>
+<div class="time-cell passed">4</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[3:44]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [3:44]</span><span class="scenario-name">'Latest Reviews Of The Restaurant' </span>
+</div>
+<div class="scenario-time passed">ms: 405</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[3:44]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[3:44]bg">
+<div class="step-container" id="17">
+<div class="step-ref bg-step">17</div>
+<div class="step-cell passed">* url 'https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql'</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="17">03:22:11.073 karate.env system property was:</div>
+<div class="step-row" data-parent="[3:44]bg">
+<div class="step-container" id="18">
+<div class="step-ref bg-step">18</div>
+<div class="step-cell passed">* configure headers = { authorization: 'eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ' }</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="19">
+<div class="step-ref passed">19</div>
+<div class="step-cell passed">Given text query =</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="19">{
+  latestReviews(restaurantId: "933db694-db29-4d2c-aafb-4a46577134e2") {
+    createdAt
+    restaurantId
+    reviewId
+    text
+  }
+}</div>
+<div class="step-row">
+<div class="step-container" id="20">
+<div class="step-ref passed">20</div>
+<div class="step-cell passed">And request { query: '#(query)' }</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="21">
+<div class="step-ref passed">21</div>
+<div class="step-cell passed">When method post</div>
+</div>
+<div class="time-cell passed">397</div>
+</div>
+<div class="preformatted" data-parent="21">03:22:11.079 request:
+1 &gt; POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 153
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 &gt; authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  latestReviews(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n    createdAt\n    restaurantId\n    reviewId\n    text\n  }\n}"}
+
+03:22:11.472 response time in milliseconds: 392.11
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 195
+1 &lt; Content-Type: application/json;charset=UTF-8
+1 &lt; Date: Wed, 10 Mar 2021 22:22:12 GMT
+1 &lt; Via: 1.1 6a1dbb759ade5ca1883ccb2e93b35123.cloudfront.net (CloudFront)
+1 &lt; X-Amz-Cf-Id: RVwHCtk65DFMaz7wi7XtPzszacUsEIxK3PWfWD03MK_7S4_jGiDqig==
+1 &lt; X-Amz-Cf-Pop: DXB50-C1
+1 &lt; X-Cache: Miss from cloudfront
+1 &lt; x-amzn-RequestId: 7570e45c-e7f5-4f25-8ca4-73b604332880
+{"data":{"latestReviews":[{"createdAt":"1615364843024","restaurantId":"933db694-db29-4d2c-aafb-4a46577134e2","reviewId":"b8d52f67-6523-4b4a-9b1a-acd4017381af","text":"best burger in the town"}]}}</div>
+<div class="step-row">
+<div class="step-container" id="22">
+<div class="step-ref passed">22</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="23">
+<div class="step-ref passed">23</div>
+<div class="step-cell passed">* print 'response:', response</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="preformatted" data-parent="23">03:22:11.474 [print] response: {
+  "data": {
+    "latestReviews": [
+      {
+        "createdAt": "1615364843024",
+        "text": "best burger in the town",
+        "restaurantId": "933db694-db29-4d2c-aafb-4a46577134e2",
+        "reviewId": "b8d52f67-6523-4b4a-9b1a-acd4017381af"
+      }
+    ]
+  }
+}</div>
+<div class="step-row">
+<div class="step-container" id="24">
+<div class="step-ref passed">24</div>
+<div class="step-cell passed">* match $.data.latestReviews[*].reviewId contains 'b8d52f67-6523-4b4a-9b1a-acd4017381af'</div>
+</div>
+<div class="time-cell passed">5</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[4:62]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [4:62]</span><span class="scenario-name">'Relation Between X and Y(Me and Zoro)' </span>
+</div>
+<div class="scenario-time passed">ms: 477</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[4:62]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[4:62]bg">
+<div class="step-container" id="25">
+<div class="step-ref bg-step">25</div>
+<div class="step-cell passed">* url 'https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql'</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="25">03:22:11.497 karate.env system property was:</div>
+<div class="step-row" data-parent="[4:62]bg">
+<div class="step-container" id="26">
+<div class="step-ref bg-step">26</div>
+<div class="step-cell passed">* configure headers = { authorization: 'eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ' }</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="27">
+<div class="step-ref passed">27</div>
+<div class="step-cell passed">Given text query =</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="27">{
+  relation(targetUserId: "1122")
+}</div>
+<div class="step-row">
+<div class="step-container" id="28">
+<div class="step-ref passed">28</div>
+<div class="step-cell passed">And request { query: '#(query)' }</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="29">
+<div class="step-ref passed">29</div>
+<div class="step-cell passed">When method post</div>
+</div>
+<div class="time-cell passed">470</div>
+</div>
+<div class="preformatted" data-parent="29">03:22:11.503 request:
+1 &gt; POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 52
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 &gt; authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n  relation(targetUserId: \"1122\")\n}"}
+
+03:22:11.971 response time in milliseconds: 466.36
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 30
+1 &lt; Content-Type: application/json;charset=UTF-8
+1 &lt; Date: Wed, 10 Mar 2021 22:22:12 GMT
+1 &lt; Via: 1.1 47d6f115cd7afcd6f492ee0f19186104.cloudfront.net (CloudFront)
+1 &lt; X-Amz-Cf-Id: TQdE7xCDr_WqN_S3vGgw0p9RLw3OUkaT_CdfbK8fF6qAsXzHOr5Bzw==
+1 &lt; X-Amz-Cf-Pop: DXB50-C1
+1 &lt; X-Cache: Miss from cloudfront
+1 &lt; x-amzn-RequestId: 72bb065e-d48e-46fe-a1a5-043fe5c391ba
+{"data":{"relation":"friend"}}</div>
+<div class="step-row">
+<div class="step-container" id="30">
+<div class="step-ref passed">30</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="31">
+<div class="step-ref passed">31</div>
+<div class="step-cell passed">* print 'response:', response</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="preformatted" data-parent="31">03:22:11.973 [print] response: {
+  "data": {
+    "relation": "friend"
+  }
+}</div>
+<div class="step-row">
+<div class="step-container" id="32">
+<div class="step-ref passed">32</div>
+<div class="step-cell passed">* match $.data.relation == 'friend'</div>
+</div>
+<div class="time-cell passed">4</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[5:76]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [5:76]</span><span class="scenario-name">'Restaurant Rating For A Restaurant (doctor saucy)' </span>
+</div>
+<div class="scenario-time passed">ms: 390</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[5:76]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[5:76]bg">
+<div class="step-container" id="33">
+<div class="step-ref bg-step">33</div>
+<div class="step-cell passed">* url 'https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql'</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="preformatted" data-parent="33">03:22:12.004 karate.env system property was:</div>
+<div class="step-row" data-parent="[5:76]bg">
+<div class="step-container" id="34">
+<div class="step-ref bg-step">34</div>
+<div class="step-cell passed">* configure headers = { authorization: 'eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ' }</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="35">
+<div class="step-ref passed">35</div>
+<div class="step-cell passed">Given text query =</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="35">{
+      restaurantRating(restaurantId: "933db694-db29-4d2c-aafb-4a46577134e2") {
+        commulative
+        dislikes
+        likes
+        total
+      }
+    }</div>
+<div class="step-row">
+<div class="step-container" id="36">
+<div class="step-ref passed">36</div>
+<div class="step-cell passed">And request { query: '#(query)' }</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="37">
+<div class="step-ref passed">37</div>
+<div class="step-cell passed">When method post</div>
+</div>
+<div class="time-cell passed">381</div>
+</div>
+<div class="preformatted" data-parent="37">03:22:12.012 request:
+1 &gt; POST https://hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com/graphql
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 180
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: hsxr2i56e5dv3o4zfxclxobk7m.appsync-api.ap-south-1.amazonaws.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+1 &gt; authorization: eyJraWQiOiJ3RXpuOU9lTkkwOXZ4SHpvQjVhN1RlYm1WNnluSE1jTW9BXC9rYjMzUHQxVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJhdWQiOiI3a2NmazJrbWc3ZG1sNmdnbGI1c2FjdnRiNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjIwNDExZWZjLTc2NGItNGU3YS1hMDRiLWEyN2I1YzJiMDQ2OSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjE1NDE0MjkzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzlLbE93Q0VrUiIsImNvZ25pdG86dXNlcm5hbWUiOiIwY2U0MDRhOC03ZTA0LTQ4M2YtOGFhMi0zNzgxZTY5OWQzNjAiLCJleHAiOjE2MTU0MTc4OTMsImlhdCI6MTYxNTQxNDI5MywiZW1haWwiOiJzaGVoYXJ5YXIyOEBob3RtYWlsLmNvbSJ9.BQp1pUvNmt_QcoUIkri02JAKCZXwf5J8JP1R-Tpmr_IEsVIzLRUx_rI4e_EERmWpwp_pR68EKW-NnrG2zmYKd7NazXpNZrpNaxpP4kwlhlARvEC43u9bdSLr6UQma6LtfqeKqjxuuD2qcinHoI3EWrO7ftkctqYv1UjKrjBcBf6UWKAF9TkC6VzxcwyTGT9Jab0h1ovpMaWJzhCVCX0ZCNxB3t4YftJSxQAOzUUmGCKtCBovmT833-s-68NE3t0iHHBhfN4eAsb8YE1Twd06ZSJZBCNkpcf5ffadkfd8nXt6XvbUMbX24gY8dI3ccMFU-Ot1i8917-LE4E3z7ZEjqQ
+{"query":"{\n      restaurantRating(restaurantId: \"933db694-db29-4d2c-aafb-4a46577134e2\") {\n        commulative\n        dislikes\n        likes\n        total\n      }\n    }"}
+
+03:22:12.389 response time in milliseconds: 376.81
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 82
+1 &lt; Content-Type: application/json;charset=UTF-8
+1 &lt; Date: Wed, 10 Mar 2021 22:22:13 GMT
+1 &lt; Via: 1.1 461079ea73843c2127940af381fcd541.cloudfront.net (CloudFront)
+1 &lt; X-Amz-Cf-Id: OtEDxXUefOFFzzvA1BKU0caNKCdzAcJEtJCNrYcknD1AZdGmi-5zwA==
+1 &lt; X-Amz-Cf-Pop: DXB50-C1
+1 &lt; X-Cache: Miss from cloudfront
+1 &lt; x-amzn-RequestId: 9cbddd11-5f1a-4ead-b6c7-4b6fa2b73256
+{"data":{"restaurantRating":{"commulative":4,"dislikes":8,"likes":12,"total":20}}}</div>
+<div class="step-row">
+<div class="step-container" id="38">
+<div class="step-ref passed">38</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="39">
+<div class="step-ref passed">39</div>
+<div class="step-cell passed">* print 'response:', response</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="preformatted" data-parent="39">03:22:12.391 [print] response: {
+  "data": {
+    "restaurantRating": {
+      "total": 20,
+      "dislikes": 8,
+      "commulative": 4,
+      "likes": 12
+    }
+  }
+}</div>
+<div class="step-row">
+<div class="step-container" id="40">
+<div class="step-ref passed">40</div>
+<div class="step-cell passed">* match $.data.restaurantRating.commulative == 4</div>
+</div>
+<div class="time-cell passed">5</div>
+</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>

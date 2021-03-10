@@ -12,7 +12,7 @@ exports.handler = async (
   );
   try {
     const fieldName = event.info.fieldName;
-    console.log(event.info.fieldName, "Field Name");
+    console.log(event);
     switch (fieldName) {
       case "addPerson":
         const addPersonResponse = await dining.addPerson(event, context);

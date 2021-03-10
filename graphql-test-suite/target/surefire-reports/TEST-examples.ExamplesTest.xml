@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="examples.ExamplesTest" time="9.302" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="examples.ExamplesTest" time="8.16" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_181\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\SHEHAR~1\AppData\Local\Temp\surefire4747414441177571434\surefirebooter3461941227798427307.jar C:\Users\Sheharyar Anwar\AppData\Local\Temp\surefire4747414441177571434 2021-03-10T19-23-05_010-jvmRun1 surefire6422444585228526226tmp surefire_06253287104845060788tmp"/>
+    <property name="sun.java.command" value="C:\Users\SHEHAR~1\AppData\Local\Temp\surefire2232948739404145045\surefirebooter6117721568098483170.jar C:\Users\Sheharyar Anwar\AppData\Local\Temp\surefire2232948739404145045 2021-03-11T03-22-00_731-jvmRun1 surefire4067575946806467834tmp surefire_01442129701561693303tmp"/>
     <property name="surefire.test.class.path" value="H:\AWS Practice\DiningAPI\graphql-test-suite\target\test-classes;H:\AWS Practice\DiningAPI\graphql-test-suite\target\classes;C:\Users\Sheharyar Anwar\.m2\repository\com\intuit\karate\karate-apache\0.9.6\karate-apache-0.9.6.jar;C:\Users\Sheharyar Anwar\.m2\repository\com\intuit\karate\karate-core\0.9.6\karate-core-0.9.6.jar;C:\Users\Sheharyar Anwar\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\Sheharyar Anwar\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\Sheharyar Anwar\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\Sheharyar Anwar\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\Sheharyar Anwar\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Sheharyar Anwar\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Sheharyar Anwar\.m2\repository\org\yaml\snakeyaml\1.24\snakeyaml-1.24.jar;C:\Users\Sheharyar Anwar\.m2\repository\de\siegmar\fastcsv\1.0.3\fastcsv-1.0.3.jar;C:\Users\Sheharyar Anwar\.m2\repository\info\picocli\picocli\4.0.3\picocli-4.0.3.jar;C:\Users\Sheharyar Anwar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar;C:\Users\Sheharyar Anwar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Sheharyar Anwar\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Sheharyar Anwar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.12\httpmime-4.5.12.jar;C:\Users\Sheharyar Anwar\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Sheharyar Anwar\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Sheharyar Anwar\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Sheharyar Anwar\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Sheharyar Anwar\.m2\repository\com\intuit\karate\karate-junit5\0.9.6\karate-junit5-0.9.6.jar;C:\Users\Sheharyar Anwar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.0\junit-jupiter-api-5.5.0.jar;C:\Users\Sheharyar Anwar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Sheharyar Anwar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Sheharyar Anwar\.m2\repository\org\junit\platform\junit-platform-commons\1.5.0\junit-platform-commons-1.5.0.jar;C:\Users\Sheharyar Anwar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.0\junit-jupiter-engine-5.5.0.jar;C:\Users\Sheharyar Anwar\.m2\repository\org\junit\platform\junit-platform-engine\1.5.0\junit-platform-engine-1.5.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Sheharyar Anwar"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\SHEHAR~1\AppData\Local\Temp\surefire4747414441177571434\surefirebooter3461941227798427307.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\SHEHAR~1\AppData\Local\Temp\surefire2232948739404145045\surefirebooter6117721568098483170.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_181\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\apache-maven-3.6.3\bin;C:\Users\Sheharyar Anwar\.windows-build-tools\python27\;C:\Users\Sheharyar Anwar\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Sheharyar Anwar\AppData\Local\Programs\Python\Python39\;C:\ProgramData\npm-cache;C:\Users\Sheharyar Anwar\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Sheharyar Anwar\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Sheharyar Anwar\AppData\Roaming\npm;C:\Users\Sheharyar Anwar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\System32\ngrok.exe;C:\Program Files\Git\bin\bash.exe;."/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Sheharyar Anwar\.windows-build-tools\python27\;C:\Users\Sheharyar Anwar\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Sheharyar Anwar\AppData\Local\Programs\Python\Python39\;C:\ProgramData\npm-cache;C:\Users\Sheharyar Anwar\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Sheharyar Anwar\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Sheharyar Anwar\AppData\Roaming\npm;C:\Users\Sheharyar Anwar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\System32\ngrok.exe;D:\apache-maven-3.6.3\bin;C:\Program Files\Git\bin\bash.exe;C:\Program Files\Git\bin\git.exe;C:\Program Files\Git\cmd;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.181-b13"/>
@@ -60,6 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testAll[1][1]" classname="examples.ExamplesTest" time="6.799"/>
-  <testcase name="testAll[1][2]" classname="examples.ExamplesTest" time="1.112"/>
+  <testcase name="testAll[1][1]" classname="examples.ExamplesTest" time="4.887"/>
+  <testcase name="testAll[1][2]" classname="examples.ExamplesTest" time="0.576"/>
+  <testcase name="testAll[1][3]" classname="examples.ExamplesTest" time="0.431"/>
+  <testcase name="testAll[1][4]" classname="examples.ExamplesTest" time="0.459"/>
+  <testcase name="testAll[1][5]" classname="examples.ExamplesTest" time="0.458"/>
 </testsuite>

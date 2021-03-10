@@ -1,4 +1,4 @@
-package examples.users;
+package examples.friends;
 
 import com.intuit.karate.junit5.Karate;
 
@@ -6,7 +6,7 @@ class UsersRunner {
     
     @Karate.Test
     Karate testUsers() {
-        return Karate.run("users").relativeTo(getClass());
+        return Karate.run("friends").relativeTo(getClass());
     }    
 
 }
