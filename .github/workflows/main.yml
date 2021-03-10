@@ -30,12 +30,8 @@ jobs:
         with:
           java-version: 1.8
       - name: Maven Quickstart Karate
-        run: mvn archetype:generate
-          -DarchetypeGroupId=com.intuit.karate
-          -DarchetypeArtifactId=karate-archetype
-          -DarchetypeVersion=0.9.6
-          -DgroupId=com.mycompany
-          -DartifactId=myproject
+        run: mvn archetype:generate -DarchetypeGroupId=com.intuit.karate -DarchetypeArtifactId=karate-archetype -DarchetypeVersion=0.9.6 -DgroupId=com.mycompany -DartifactId=myproject
+
        - name: Goto project
           run: cd myproject
        - name: Run Tests
