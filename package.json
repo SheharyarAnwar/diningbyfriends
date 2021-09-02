@@ -8,10 +8,13 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "generate": "graphql-codegen --config codegen.yml"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.91.0",
+    "@graphql-codegen/cli": "1.21.3",
+    "@graphql-codegen/typescript": "1.21.1",
     "@types/async": "^3.2.5",
     "@types/aws-lambda": "^8.10.72",
     "@types/gremlin": "^3.4.6",
@@ -19,11 +22,13 @@
     "@types/node": "10.17.27",
     "async": "^3.2.0",
     "aws-cdk": "1.91.0",
+    "graphql": "^15.5.0",
     "gremlin": "^3.4.10",
     "jest": "^26.4.2",
     "ts-jest": "^26.2.0",
     "ts-node": "^9.0.0",
-    "typescript": "~3.9.7"
+    "typescript": "~3.9.7",
+    "@graphql-codegen/typescript-resolvers": "1.19.0"
   },
   "dependencies": {
     "@aws-cdk/aws-appsync": "^1.92.0",
